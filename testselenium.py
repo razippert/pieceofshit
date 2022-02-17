@@ -4,9 +4,9 @@ import time
 
 
 driver = webdriver.Chrome()
-driver.get("https://www.duckduckgo.com")  
+driver.get("https://www.google.com.br")  
 campodebusca = driver.find_element(by="name",value="q")
-campodebusca.send_keys("banana prata")
+campodebusca.send_keys("nextmuv")
 campodebusca.send_keys(Keys.RETURN)              
 
 time.sleep(5)
